@@ -13,7 +13,7 @@ Launch game with `-direct` flag and select `aa+uniform-nn+rcas` shader preset wi
 
 ## Screenshots
 
-All screenshot were taken at 1068x600 in-game resolution, upscaled to 1920x1080 via *D2GL* with FXAA filtering disabled.
+All screenshots were taken at 1068x600 in-game resolution, upscaled to 1920x1080 via *D2GL* with FXAA filtering disabled.
 
 [![Screenshot006](./screenshots/Screenshot006s.png)](./screenshots/Screenshot006.png) [![Screenshot009](./screenshots/Screenshot009s.png)](./screenshots/Screenshot009.png)
 [![Screenshot014](./screenshots/Screenshot014s.png)](./screenshots/Screenshot014.png) [![Screenshot025](./screenshots/Screenshot025s.png)](./screenshots/Screenshot025.png)
