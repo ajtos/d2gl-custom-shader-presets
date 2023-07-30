@@ -9,6 +9,8 @@ Copy provided `data` folder into you base Diablo II directory, so path looks som
 
 Launch game with `-direct` flag and select `aa+uniform-nn+rcas` shader preset within *D2GL* (Ctrl+o shortcut).
 
+![Selecting presets](./screenshots/preset.png)
+
 ## Screenshots
 
 [![Screenshot006](./screenshots/Screenshot006s.png)](./screenshots/Screenshot006.png) [![Screenshot009](./screenshots/Screenshot009s.png)](./screenshots/Screenshot009.png)
