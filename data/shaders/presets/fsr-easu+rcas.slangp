@@ -1,0 +1,17 @@
+shaders = 2
+
+shader0 = ../fsr/shaders/fsr-pass0.slang
+filter_linear0 = true
+scale_type0 = viewport
+scale0 = 1.0
+wrap_mode0 = clamp_to_edge
+
+shader1 = ../sharpen/shaders/rcas.slang
+filter_linear1 = true
+scale_type1 = source
+scale1 = 1.0
+wrap_mode1 = clamp_to_edge
+
+parameters = "RCAS_STRENGTH;RCAS_DENOISE"
+RCAS_STRENGTH = 0.8
+RCAS_DENOISE = 1.0

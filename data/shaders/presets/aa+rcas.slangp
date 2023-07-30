@@ -1,0 +1,13 @@
+shaders = 2
+
+shader0 = ../anti-aliasing/shaders/aa-shader-4.0.slang
+filter_linear0 = false
+scale_type0 = viewport
+scale0 = 1.0
+
+shader1 = ../sharpen/shaders/rcas.slang
+filter_linear1 = false
+
+parameters = "RCAS_STRENGTH;RCAS_DENOISE"
+RCAS_STRENGTH = 0.8
+RCAS_DENOISE = 1.0
