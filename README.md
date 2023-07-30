@@ -55,6 +55,8 @@ Only downside of using *Uniform Nearest* is that at some resolutions (specific v
 
 ![Uniform Nearest artifact](./screenshots/artifact.png)
 
+There is also nothing stopping you from using FXAA filtering as option in *D2GL*. I disabled it only, because it is easier to compare images this way.
+
 ## Credits
 
 **Hyllian** and **fishku** for providing useful tips.
