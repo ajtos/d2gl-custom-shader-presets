@@ -7,7 +7,9 @@ Recently **bayaraa** introduced support for multi-pass shaders in [D2GL](https:/
 
 ## Challanges of scaling D2
 
+[Libretro shaders](https://github.com/libretro/slang-shaders) are mostly oriented toward scaling older systems, where resolution is pretty low (common resolution for *SNES* is 256x224 as an example). Those shaders are also typically created with integer scaling with mind: 2x, 3x, 4x of original size and so on. On the other hand, common resolution for *Diablo 2* is 1068x600 (when used with [SGD2FreeRes](https://github.com/mir-diablo-ii-tools/SlashGaming-Diablo-II-Free-Resolution) for wide resolution support) and that means fractional scaling, when upscaling to something like 1080p (1920x1080). This means that most shaders will look bad (mostly due to artifacts). Prevously something like *windowed/jinc2* gave decent results, but now most players will probably switch to new addition: *FSR*.
 
+## About FSR
 
 ![FSR RCAS vs fishku RCAS](./screenshots/comparison1.png)
 
