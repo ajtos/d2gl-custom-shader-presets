@@ -1,6 +1,20 @@
 # d2gl-custom-shader-presets
 Additional slang shader presets for D2GL
 
+## Usage
+
+Copy provided `data` folder into you base Diablo II directory, so path looks something like that:
+
+`E:\Diablo II\data\shaders\presets\aa+uniform-nn+rcas.slangp`
+
+Launch game with `-direct` flag and select `aa+uniform-nn+rcas` shader preset within *D2GL* (Ctrl+o shortcut).
+
+## Screenshots
+
+[![Screenshot006](./screenshots/Screenshot006s.png)](./screenshots/Screenshot006.png) [![Screenshot009](./screenshots/Screenshot009s.png)](./screenshots/Screenshot009.png)
+[![Screenshot014](./screenshots/Screenshot014s.png)](./screenshots/Screenshot014.png) [![Screenshot025](./screenshots/Screenshot025s.png)](./screenshots/Screenshot025.png)
+[![Screenshot029](./screenshots/Screenshot029s.png)](./screenshots/Screenshot029.png) [![Screenshot033](./screenshots/Screenshot033s.png)](./screenshots/Screenshot033.png)
+
 ## Scaling in D2GL
 
 Recently **bayaraa** introduced support for multi-pass shaders in [D2GL](https://github.com/bayaraa/d2gl). [cnc-ddraw](https://github.com/FunkyFr3sh/cnc-ddraw) had basic support for single-pass shaders for quite some time, so what really changed? *D2GL* offers HD text, which means that text is rendered separately. This means we aren't concerned with text readability and shaders can be pushed a bit harder without sacrifices. Moreover due to multi-pass support combining shaders gives more options.
@@ -23,17 +37,13 @@ Lets go back to previous image and look at second row. Here different implementa
 
 `#pragma parameter RCAS_STRENGTH "Strength of RCA sharpening" 0.8 0.0 1.1 0.05`
 
+## Better than EASU?
+
+
+
 ![FSR EASU+RCAS vs AA+RCAS vs AA+UNIFORM NN+RCAS](./screenshots/comparison2.png)
 ![FSR EASU+RCAS vs AA+RCAS vs AA+UNIFORM NN+RCAS](./screenshots/comparison3.png)
 ![FSR EASU+RCAS vs AA+RCAS vs AA+UNIFORM NN+RCAS](./screenshots/comparison4.png)
-
-## Usage
-
-## Screenshots
-
-[![Screenshot006](./screenshots/Screenshot006s.png)](./screenshots/Screenshot006.png) [![Screenshot009](./screenshots/Screenshot009s.png)](./screenshots/Screenshot009.png)
-[![Screenshot014](./screenshots/Screenshot014s.png)](./screenshots/Screenshot014.png) [![Screenshot025](./screenshots/Screenshot025s.png)](./screenshots/Screenshot025.png)
-[![Screenshot029](./screenshots/Screenshot029s.png)](./screenshots/Screenshot029.png) [![Screenshot033](./screenshots/Screenshot033s.png)](./screenshots/Screenshot033.png)
 
 ## Credits
 
