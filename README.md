@@ -45,7 +45,7 @@ Lets go back to previous image and look at second row. Here different implementa
 
 Most general upscalers are yielding similar results to *EASU*. You can also try to use more specilized upscalers like *ScaleFX* or *XBR* for pre-scaling at fixed integer value e.g. 2x and then downscale using something like *cubic/b-spline*, followed by sharpening pass. Most of those combinations don't improve over *EASU*. I personally settled down on using *Anti-Aliasing 4.0* shader, which does less than EASU and in my opinion provides more natural results at cost of more [jaggies](https://en.wikipedia.org/wiki/Jaggies). 
 
-Additionally I used [Uniform Nearest](https://github.com/gizmo98/gizmo-crt-shader) shader created by **Gizmo**. It creates CRT-like effects than aren't overwhelming like scanlines. It helps with hiding some upscaling limitations, moving sprites look especially good and whole image composition is very tasteful compared to usual CRT shaders. I created some comparisons using static images:
+Additionally I used [Uniform Nearest](https://github.com/gizmo98/gizmo-crt-shader) shader created by **Gizmo**. It creates CRT-like effects than aren't overwhelming like scanlines. It helps with hiding some upscaling limitations, sprites in move look especially good and whole image composition is very tasteful compared to usual CRT shaders. I created some comparisons using static images:
 
 ![FSR EASU+RCAS vs AA+RCAS vs AA+UNIFORM NN+RCAS](./screenshots/comparison2.png)
 ![FSR EASU+RCAS vs AA+RCAS vs AA+UNIFORM NN+RCAS](./screenshots/comparison3.png)
