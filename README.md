@@ -19,7 +19,9 @@ Currently *D2GL* ignores parameters inside slang presets (*.slangp* extension) a
 
 `#pragma parameter FSR_SHARPENING "FSR RCAS Sharpening Amount (Lower = Sharper)" 0.7 0.0 2.0 0.1`
 
-Lets go back previous image and look at second row. This is re
+Lets go back to previous image and look at second row. Here different implementation of *RCAS* is used. **fishku** re-implemented this shader, enabling some additional features like Luma denoiser. This means that sharepining can be pushed bit further without creating noticable artificats. He also reversed meaning of values: higher = sharper. I think switching to *FSR EASU + fishku RCAS* is better option than using stock *FSR*. `RCAS_STRENGTH` can be adjusted in `data/shaders/sharpen/shaders/rcas.slang`, example for 0.8 value:
+
+`#pragma parameter RCAS_STRENGTH "Strength of RCA sharpening" 0.8 0.0 1.1 0.05`
 
 ![FSR EASU+RCAS vs AA+RCAS vs AA+UNIFORM NN+RCAS](./screenshots/comparison2.png)
 ![FSR EASU+RCAS vs AA+RCAS vs AA+UNIFORM NN+RCAS](./screenshots/comparison3.png)
