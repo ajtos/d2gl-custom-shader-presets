@@ -1,0 +1,3 @@
+* text=auto
+*.slangp text eol=crlf
+*.slang text eol=crlf
